@@ -1,0 +1,19 @@
+{
+  "name": "webpack-exec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "luca mezzalira <mezzalab@gmail.com> (http://lucamezzalira.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
