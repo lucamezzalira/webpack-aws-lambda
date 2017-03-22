@@ -1,8 +1,6 @@
 var spawn = require('child_process').spawn;
 var fs = require('fs')
 
-process.env["PATH"] = process.env["PATH"] + ":" + process.env["LAMBDA_TASK_ROOT"] + '/bin/';
-
 exports.handler = (event, context, callback) => {
     
     var wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js']);
